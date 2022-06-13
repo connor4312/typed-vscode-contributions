@@ -1,0 +1,35 @@
+{
+  "name": "typed-vscode-contributions",
+  "version": "1.0.0",
+  "description": "Strongly-typed runtime and generators for VS Code extensions",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "vscode",
+    "vs",
+    "code",
+    "contributions",
+    "package.json",
+    "generate"
+  ],
+  "author": "Connor Peet <connor@peet.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/vscode": "^1.68.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.7.3",
+    "vitest": "^0.14.2"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid"
+  }
+}
